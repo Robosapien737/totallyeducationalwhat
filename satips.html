@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 Tips for Writing Essays</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header {
+      background-color: #3498db;
+      color: white;
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .article {
+      width: 48%;
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .article:hover {
+      transform: translateY(-5px);
+    }
+
+    .article h2 {
+      margin-bottom: 10px;
+    }
+
+    .article p {
+      font-size: 16px;
+    }
+
+    .article a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #2980B9;
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .article a.button:hover {
+      background-color: #1ABC9C;
+    }
+
+    /* Additional styles for secret link */
+    .hover-trigger {
+      position: relative;
+    }
+
+    .visible-text {
+      color: #000; /* Change the color of the visible word */
+    }
+
+    .secret-link {
+      display: none;
+      cursor: pointer;
+      color: blue;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .hover-trigger:hover .secret-link {
+      display: inline;
+    }
+  </style>
+  <script>
+    function openSecretLink() {
+      openInNewTab(window.location.origin+'/index.html
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>5 Tips for Writing Essays</h1>
+    </header>
+
+    <main>
+      <section class="article">
+        <p>
+          Writing essays can sometimes be a challenging task. One area where students often struggle is with unclear or 
+          <span class="hover-trigger"><span class="visible-text">confusing</span><span class="secret-link" onclick="openSecretLink()">...</span></span> 
+          wording. It's important to ensure that your ideas are expressed clearly and concisely.
+        </p>
+        <p>Here are some tips to improve your essay writing skills:</p>
+        <ul>
+          <li>Tip 1: Plan and organize your thoughts before you start writing.</li>
+          <li>Tip 2: Use a clear and logical structure for your essay.</li>
+          <li>Tip 3: Revise and proofread your essay for clarity and coherence.</li>
+          <li>Tip 4: Seek feedback from peers or instructors to improve your writing.</li>
+          <li>Tip 5: Expand your vocabulary and use precise language to convey your ideas.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
